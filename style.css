@@ -1,0 +1,206 @@
+.all{
+    width: 90%;
+    margin: 0 auto;
+}
+.container{
+    width: 600px;
+    font-family: 'Roboto';
+    font-size: 22px;
+}
+.paraq{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 144px;
+}
+.photo1{
+    margin-left: 126px;
+    margin-top: 126px;
+}
+
+.footer{
+    margin-top: 23px;
+    display: flex;
+    padding-left: 216px;
+
+}
+.second{
+    margin-left: 18px;
+    margin-top: 20px;
+}
+
+.paraq2{
+    width: 65%;
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-evenly;
+    width: 48%;
+    margin-left: 77px;
+}
+.text1{
+    width: 200px;
+}
+.text2{
+    width: 150px;
+    margin-left: 30px;
+}
+.text3{
+    width: 100px;
+}
+h1 {
+    font-family: 'Roboto Slab';
+    font-weight: 900;
+    font-size: 50px;
+}
+p{
+    font-family:'Roboto';
+    font-size: 18px;
+}
+.ikili{
+    display: flex;
+}
+img{
+    height: 220px;
+}
+
+
+
+@media screen and (max-width: 1279px){
+
+.container{
+    width: 600px;
+    font-family: 'Roboto';
+    font-size: 17px;
+}
+.paraq{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+.photo1{
+    margin-left: 77px;
+    margin-top: 86px;
+    
+}
+.shekil{
+    height: 60%;
+}
+
+.footer{
+    margin-top: -36px;
+    display: flex;
+    padding-left: 118px;
+   
+}
+
+.paraq2{
+    width: 59%;
+    display: flex;
+    margin-left: 78px;
+    margin-top: 70px;
+    justify-content: space-evenly;
+    width: 48%;
+    margin-right: 145px;
+    margin-top: 92px;
+}
+.text1{
+    width: 180px;
+}
+.text2{
+    width: 200px;
+    margin-left: 30px;
+}
+.text3{
+    width: 83px;
+    margin-left: 3px;
+    
+}
+h1 {
+    font-family: 'Roboto Slab';
+    font-weight: 900;
+    font-size: 44px;
+}
+p{
+    font-family:Roboto;
+    font-size: 18px;
+}
+.first{
+    width: 211px;
+    margin-left: 55%;
+}
+.ikili{
+    display: contents;
+}
+.second{
+    height: 40px;
+}
+
+
+}
+
+
+@media screen and (max-width: 991px){
+.container{
+    width: 600px;
+    font-family: 'Roboto';
+    font-size: 17px;
+}
+.test {
+    width: 100%;
+}
+.paraq{
+    flex-direction: column;
+}
+img{
+    height: 300px;
+}
+.footer{
+    padding-left: 67px;
+}
+h1 {
+    font-family: 'Roboto Slab';
+    font-weight: 900;
+    font-size: 44px;
+    width: 500px;
+}
+p{
+    font-family:Roboto;
+    font-size: 18px;
+}
+.first{
+    width: 211px;
+    margin-left: 55%;
+}
+.second{
+    display: none;
+}
+
+.paraq2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.text1{
+    width: 140px;
+}
+.text2{
+    width: 174px;
+    margin-left: 89px;
+}
+.text3{
+    width: 83px;
+}
+.ikili{
+    width: 232px;
+    display: flex;
+
+
+}
+}
+
